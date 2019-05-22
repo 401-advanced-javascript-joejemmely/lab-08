@@ -7,7 +7,7 @@
 ### Links and Resources
 
 - [submission PR](http://xyz.com)
-- [travis](http://xyz.com)
+- [travis](https://travis-ci.com/401-advanced-javascript-joejemmely/lab-08)
 
 #### Documentation
 
@@ -38,18 +38,18 @@ Usage Notes or examples
 #### Running the app
 
 - `npm start`
-- Endpoint: `/foo/bar/`
+- Endpoint: `/categories/`
   - Returns a JSON object with abc in it.
-- Endpoint: `/bing/zing/`
-
+- Endpoint: `/products/`
   - Returns a JSON object with xyz in it.
 
 #### Tests
 
-- How do you run tests?
+- How do you run tests? `npm test`
 - What assertions were made?
+  - All the methods from the models have been tested independently
 - What assertions need to be / should be made?
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+![Lucidchart](..)
