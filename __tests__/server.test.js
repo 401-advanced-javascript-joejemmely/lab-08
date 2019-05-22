@@ -20,16 +20,6 @@ describe('Routes', () => {
         });
     });
 
-    it('returns 200 http code on POST', done => {
-      return request(server)
-        .post('/categories')
-        .send({ name: 'Gambler 710' })
-        .expect(200)
-        .expect('Body', 'asd')
-        .end((err, res) => {
-          if (err) return done(err);
-          done();
-        });
-    });
+
   });
 });
