@@ -6,11 +6,11 @@ const router = express.Router();
 const Categories = require('../models/categories.js');
 const categories = new Categories();
 
-router.get('', getCategories);
-router.post('', postCategories);
-router.get(':id', getCategory);
-router.put(':id', putCategories);
-router.delete(':id', deleteCategories);
+router.get('/', getCategories);
+router.post('/', postCategories);
+router.get('/:id', getCategory);
+router.put('/:id', putCategories);
+router.delete('/:id', deleteCategories);
 
 function getCategories(request, response, next) {
   // expects an array of object to be returned from the model
