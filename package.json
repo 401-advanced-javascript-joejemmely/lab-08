@@ -1,27 +1,28 @@
 {
-  "name": "lab-08",
+  "name": "api-server-solution",
   "version": "1.0.0",
-  "description": "You have been provided a partially working API server. The assignment for today is to complete the server's functionality by creating the data models and writing a full test suite",
+  "description": "",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
-    "start": "node index.js",
-    "lint": "eslint **/*.js",
-    "test": "jest --verbose --coverage",
-    "test-watch": "jest --watchAll --verbose --coverage",
-    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+    "test": "jest --verbose",
+    "test-watch": "jest --watchAll --verbose"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/401-advanced-javascript-joejemmely/lab-08.git"
+  "jest": {
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/401-advanced-javascript-joejemmely/lab-08/issues"
-  },
-  "homepage": "https://github.com/401-advanced-javascript-joejemmely/lab-08#readme"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "mongodb-memory-server": "^2.9.1",
+    "mongoose": "^5.4.2",
+    "mongoose-schema-jsonschema": "^1.2.1",
+    "morgan": "^1.9.1",
+    "supertest": "^3.3.0",
+    "uuid": "^3.3.2"
+  }
 }
