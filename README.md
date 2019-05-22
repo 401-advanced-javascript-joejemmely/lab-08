@@ -16,17 +16,13 @@
 
 ### Modules
 
-#### `modulename.js`
+#### `app.js`
 
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
+###### `server() -> express instance`
 
-Usage Notes or examples
-
-###### `bar(array) -> array`
-
-Usage Notes or examples
+###### `start() -> function`
 
 ### Setup
 
