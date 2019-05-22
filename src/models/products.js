@@ -27,8 +27,6 @@ class Products {
     let queryObject = _id ? { _id } : {};
     return schema.deleteOne(queryObject);
   }
-
-  sanitize(entry) {}
 }
 
 module.exports = Products;
