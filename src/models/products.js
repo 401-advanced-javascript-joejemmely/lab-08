@@ -1,7 +1,4 @@
 'use strict';
-
-const uuid = require('uuid/v4');
-
 const schema = require('./products-schema.js');
 
 class Products {
